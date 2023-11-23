@@ -53,8 +53,8 @@ function send_email($email, $code, $for)
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'golden.starr1997@gmail.com';
-    $mail->Password = 'zlrn ooiv lyfo egxb';
+    $mail->Username = '';
+    $mail->Password = '';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port = 465;
 
